@@ -2,6 +2,7 @@
   {
     "nom": "Coeur d'amande",
     "type": "cuisine tunisienne",
+    "image": "http://lorempixel.com/150/150/food/1",
     "adresse": "49 rue Pierre Paul Riquet, 31000 Toulouse",
     "telephone": "05 34 42 97 15",
     "plats": "Couscous, salades, bricks, tajines, pâtiseries  orientale"
@@ -9,6 +10,7 @@
   {
     "nom": "La Belle verte",
     "type": "restaurant bio cosy",
+    "image": "http://lorempixel.com/150/150/food/2",
     "adresse": "50 rue d’Aubuisson, 31000 Toulouse",
     "telephone": "05 61 62 73 42",
     "plats": "Plats bio et végétariens de saison, brunchs"
@@ -16,6 +18,7 @@
   {
     "nom": "Shalizar",
     "type": "cuisine iranienne",
+    "image": "http://lorempixel.com/150/150/food/3",
     "adresse": "4100 rue Achille Viadieu, 31400 Toulouse",
     "telephone": "05 61 32 69 55",
     "plats": "Mousse de lentilles, poulet au safran, glace à la pistache"
@@ -23,6 +26,7 @@
   {
     "nom": "Le Tranchoir",
     "type": "auberge médiévale",
+    "image": "http://lorempixel.com/150/150/food/4",
     "adresse": "1 bis, rue du May, 31000 Toulouse",
     "telephone": "5 61 21 66 57",
     "plats": "cuisine médiévale, viandes, gibiers "
@@ -30,6 +34,7 @@
   {
     "nom": "La petite île",
     "type": "cuisine réunionnaise",
+    "image": "http://lorempixel.com/150/150/food/5",
     "adresse": "?",
     "telephone": "?",
     "plats": "?"
@@ -37,6 +42,7 @@
   {
     "nom": "Long Quan",
     "type": "cuisine cantonnaise",
+    "image": "http://lorempixel.com/150/150/food/6",
     "adresse": "?",
     "telephone": "?",
     "plats": "?"

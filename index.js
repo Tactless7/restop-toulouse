@@ -23,10 +23,12 @@ app.get('/restos', (req, res) => {
 });
 
 app.post('/restos', (req, res) => {
-  const resto = req.body;
+  let resto = req.body;
   const restos = JSON.parse(
     fs.readFileSync(__dirname + '/restos.json', 'utf8'),
   );
+  resto.image =
+    'http://lorempixel.com/150/150/food/' + Math.floor(Math.random() * 10 + 1);
   restos.push(resto);
   fs.writeFileSync(__dirname + '/restos.json', JSON.stringify(restos), 'utf8');
   res.send('Le restaurant a été ajouté à la liste');
