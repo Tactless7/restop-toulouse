@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const app = express();
 const port = process.env.PORT;
 
-app.use(bodyParser.json()); // for parsing application/json
+app.use(bodyParser.json()); // used for parsing application/json
 
 app.use(function(req, res, next) {
   res.header('Access-Control-Allow-Origin', '*');
