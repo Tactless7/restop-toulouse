@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "nom": "Coeur d'amande",
     "type": "cuisine tunisienne",
     "image": "http://lorempixel.com/150/150/food/1",
@@ -8,6 +9,7 @@
     "plats": "Couscous, salades, bricks, tajines, pâtiseries orientales"
   },
   {
+    "id": 2,
     "nom": "La Belle verte",
     "type": "restaurant bio cosy",
     "image": "http://lorempixel.com/150/150/food/2",
@@ -16,6 +18,7 @@
     "plats": "Plats bio et végétariens de saison, brunchs"
   },
   {
+    "id": 3,
     "nom": "Shalizar",
     "type": "cuisine iranienne",
     "image": "http://lorempixel.com/150/150/food/3",
@@ -24,6 +27,7 @@
     "plats": "Mousse de lentilles, poulet au safran, glace à la pistache"
   },
   {
+    "id": 4,
     "nom": "Le Tranchoir",
     "type": "auberge médiévale",
     "image": "http://lorempixel.com/150/150/food/4",
@@ -32,6 +36,7 @@
     "plats": "cuisine médiévale, viandes, gibiers "
   },
   {
+    "id": 5,
     "nom": "La petite île",
     "type": "cuisine réunionnaise",
     "image": "http://lorempixel.com/150/150/food/5",
@@ -40,6 +45,7 @@
     "plats": "?"
   },
   {
+    "id": 6,
     "nom": "Long Quan",
     "type": "cuisine cantonnaise",
     "image": "http://lorempixel.com/150/150/food/6",
