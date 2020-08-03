@@ -73,4 +73,16 @@ app.put("/restos/:id", (req, res) => {
   res.send(updatedResto);
 });
 
+app.delete("/restos/:id", (req, res) => {
+  const id = parseInt(req.params.id);
+  if (!id) return res.status(400).send("Bad Request - You must provide an id");
+
+  const restos = getRestos();
+  const newRestosList = restos.filter((_) => _.id !== id);
+
+  writeRestos(newRestosList);
+
+  res.status(200).send("Le restaurant a bien été supprimé");
+});
+
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
